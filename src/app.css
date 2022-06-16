@@ -1,0 +1,39 @@
+body {
+  margin-top: 20px;
+}
+
+.ui.card > .image > img,
+.ui.cards > .card > .image > img {
+  display: block;
+  width: -webkit-fill-available;
+  height: 280px;
+  object-fit: unset;
+  border-radius: inherit;
+}
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  max-height: 650px;
+}
+
+.ui.card > .content,
+.ui.cards > .card > .content {
+  padding: 0.5em 0.5em;
+}
+button > a {
+  color: white;
+}
+button > a:hover {
+  color: black;
+}
+
+.ui.card > .content > .header:not(.ui),
+.ui.cards > .card > .content > .header:not(.ui) {
+  font-size: 14px;
+  line-height: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  margin-top: 2px;
+  padding-top: 3px;
+}
+
